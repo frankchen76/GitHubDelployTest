@@ -69,14 +69,6 @@ jobs:
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_9398D0FBD2A2419BA9E2F5097AD85533 }}
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_B2846899570D4DADA34ED35EFDC9A735 }}
 
-      - name: "Get resource group with PowerShell action"
-        uses: azure/powershell@v1
-        with:
-          inlineScript: |
-            Get-AzResourceGroup
-            Get-AzWebApp -ResourceGroupName "GitHubDeploymentRG"
-          azPSVersion: "latest"
-
       - name: "Deploy to Azure Web App"
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
