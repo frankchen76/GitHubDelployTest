@@ -20,7 +20,7 @@ export const Home = () => {
         <div className="ms-Grid">
             <div className="ms-Grid-row">
                 <div className="ms-Grid-col ms-sm12 ms-md12 ms-lg12 ms-bgColor-white" >
-                    <h2>Home testapp1</h2>
+                    <h2>Home testapp2</h2>
                 </div>
             </div>
             <div className="ms-Grid-row">
