@@ -7,8 +7,6 @@ on:
   push:
     branches:
       - stable
-    tags:
-      - TestApp2Deploy
   workflow_dispatch:
 
 jobs:
