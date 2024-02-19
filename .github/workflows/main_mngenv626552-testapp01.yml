@@ -6,7 +6,7 @@ name: Build and deploy - mngenv626552-TestGitHubApp01
 on:
   push:
     branches:
-      - main
+      - stable
     tags:
       - TestApp1Deploy
   workflow_dispatch:
