@@ -7,7 +7,7 @@ This is a sample to demonstrate how to use msal-browser with a TypeScript+React 
 * In order to test Grapph API /me endpoint, you need to configure your AAD App to have "User.Read" permssion
 * Update AAD configuration from src/authConfig.ts and replace the following items: 
 
-```Typescript
+```Typescript 
 export const msalConfig: Configuration = {
     auth: {
         clientId: "[client-id]",
